@@ -51,7 +51,6 @@ void loop() {
           digitalWrite(RIGHT_LED_PIN, HIGH);
           Serial.println("RIGHT ON");
         } else if (cmd == 3) {
-          // new: joystick button → both on
           digitalWrite(LEFT_LED_PIN, HIGH);
           digitalWrite(RIGHT_LED_PIN, HIGH);
           Serial.println("BOTH ON");
